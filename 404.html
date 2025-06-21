@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        function redirect() {
+            const currentUrl = window.location.href;
+            const baseUrl = "https://chrisplayzwii.github.io";
+            const newUrl = baseUrl + window.location.pathname + window.location.search;
+            window.location.replace(newUrl);
+        }
+    </script>
+</head>
+<body onload="redirect()">
+    <h1>Redirecting to </h1><a href="https://chrisplayzwii.github.io">chrisplayzwii.github.io</a>
+</body>
+</html>
